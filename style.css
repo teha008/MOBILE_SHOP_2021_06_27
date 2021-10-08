@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
 /* Sass Template */
 /* global classes */
@@ -10,7 +11,7 @@ button:focus {
 /* typography classes */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
-}
+} 
 
 .font-rale {
   font-family: "Raleway", cursive;
@@ -34,6 +35,31 @@ button:focus {
 
 .font-size-20 {
   font-size: 20px;
+}
+
+/* Color 템플릿 */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
 }
 
 /*# sourceMappingURL=style.css.map */
